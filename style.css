@@ -1,0 +1,48 @@
+.temaClaro{
+    background-color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;    
+}
+.temaEscuro{
+    background-color: black;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;    
+}
+
+#area-da-calculadora-imc{
+    margin-top: 200px;
+    margin-left: 600px;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    align-items: center;
+   
+    background-color: rgb(222, 188, 188);
+
+}
+
+h1{
+    color: black;
+}
+
+.button-tema{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: none;
+    border: solid black;
+}
+
+.button-tema:hover{
+    background-color: #4CAF50;
+    border: solid #4CAF50;
+}
+
+.resultado{
+    color: red;
+}
+
+input{
+    width: 25%;
+    margin-top: 22px;
+}
